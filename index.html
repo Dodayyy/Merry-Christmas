@@ -527,21 +527,5 @@
   <audio autoplay>
     <source src="Christmas.mp3" type="audio/mp3" />
   </audio>
-
-  <script>
-    var audio = document.querySelector('audio');
-    audio.currentTime = 60;
-
-    var button = document.querySelector('button');
-    function playAudio() {
-      var audio = document.querySelector('audio');
-      if (audio.paused) {
-        audio.play();
-        button.textContent = 'Stop';
-      } else {
-        audio.pause();
-        button.textContent = 'Play';
-      }
-    }
-  </script>
+   <script src="script.js"></script>
 </html>
