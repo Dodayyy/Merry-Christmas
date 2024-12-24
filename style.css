@@ -87,7 +87,7 @@ button {
   margin-top: 250px; 
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(145deg, #ffffff, #f0f0f0); 
+  background: linear-gradient(145deg, #e6f2ff, #b3d9ff);
   border: 2px solid rgba(255, 255, 255, 0.2); 
   padding: 0.6em 1.2em; 
   border-radius: 25px; 
@@ -100,10 +100,10 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(145deg, #fb0303, #f80303);
-  transform: translateX(-50%) translateY(-2px); 
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  background: linear-gradient(145deg, #ccecff, #99d6ff);
+  transform: translateX(-50%) translateY(-2px);
+  box-shadow: 0 6px 20px rgba(179, 217, 255, 0.4),
+              0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 button:active {
