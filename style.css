@@ -103,6 +103,7 @@ button:hover {
   background: linear-gradient(145deg, #fb0303, #f80303);
   transform: translateX(-50%) translateY(-2px); 
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  color: #fff;
 }
 
 button:active {
